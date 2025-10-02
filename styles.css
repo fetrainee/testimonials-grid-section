@@ -21,6 +21,8 @@
 
 main {
     font-family: 'Barlow Semi Condensed', sans-serif;
+    font-size: 13px;
+    font-weight: 500; /* medium */
     display: grid;
     grid-template-areas:
             "first"
@@ -50,8 +52,31 @@ main {
     border-width: 2px;
 }
 
+.card figure {
+    display: flex;
+    gap: 17px;
+    font-weight: 600;
+    line-height: 110%;
+}
+
+.card figcaption {
+    display: flex;
+    flex-direction: column;
+}
+
+.card h2 {
+    font-size: 13px;
+    color: var(--color-white);
+}
+
+.card h3 {
+    color: var(--color-purple-50);
+    font-size: 11px;
+}
+
 .first {
     grid-area: first;
+    background-color: var(--color-purple-500);
 }
 
 .first img {
