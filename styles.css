@@ -38,6 +38,10 @@
 
 body {
     background-color: var(--color-background);
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 main {
@@ -52,12 +56,8 @@ main {
             "fourth"
             "fifth";
     gap: 2rem;
-    justify-content: center;
-    min-height: 100vh;
-    padding-top: 3.75rem;
-    padding-bottom: 3.75rem;
     width: 305px;
-    margin: 0 auto;
+    padding: var(--spacing-2xl) 0;
 
     /* Tablet */
     @media (min-width: 768px) {
