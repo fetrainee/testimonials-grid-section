@@ -43,6 +43,9 @@ main {
             "fifth";
     gap: 2rem;
     justify-content: center;
+    min-height: 100vh;
+    padding-top: 3.75rem;
+    padding-bottom: 3.75rem;
 }
 
 .card {
