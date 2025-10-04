@@ -64,6 +64,17 @@ main {
                 "fifth fifth";
         width: 647px;
     }
+
+    /* Desktop */
+    @media (min-width: 1440px) {
+        width: 1140px;
+        grid-template-areas:
+        "first first second fifth"
+        "third fourth fourth fifth";
+        grid-row-gap: var(--spacing-l);
+        grid-column-gap: var(--spacing-xl);
+        grid-template-columns: repeat(4, 1fr);
+    }
 }
 
 .card {
