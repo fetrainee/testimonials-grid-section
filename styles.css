@@ -24,6 +24,10 @@
     --font-weight-medium: 500;
     --font-weight-semibold: 600;
 
+    --font-size-xs: 0.6875rem; /* 11px */
+    --font-size-s: 0.8125rem; /* 13px */
+    --font-size-l: 1.25rem; /* 20px */
+
     --spacing-xs: 0.25rem; /* 4px */
     --spacing-s: 0.5rem; /* 8px */
     --spacing-m: 1rem; /* 16px */
@@ -38,7 +42,7 @@ body {
 
 main {
     font-family: 'Barlow Semi Condensed', sans-serif;
-    font-size: 13px;
+    font-size: var(--font-size-s);
     font-weight: var(--font-weight-medium);
     display: grid;
     grid-template-areas:
@@ -107,24 +111,24 @@ main {
 }
 
 .card h2 {
-    font-size: 13px;
+    font-size: var(--font-size-s);
     font-weight: var(--font-weight-medium);
 }
 
 .card h3 {
-    font-size: 11px;
+    font-size: var(--font-size-xs);
     font-weight: var(--font-weight-medium);
 }
 
 .card p {
-    font-size: 20px;
+    font-size: var(--font-size-l);
     font-weight: var(--font-weight-semibold);
     line-height: 120%;
     letter-spacing: 0;
 }
 
 .card blockquote p {
-    font-size: 13px;
+    font-size: var(--font-size-s);
     font-weight: var(--font-weight-medium);
     line-height: 140%;
     letter-spacing: 0;
