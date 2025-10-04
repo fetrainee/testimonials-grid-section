@@ -175,6 +175,27 @@ main {
 
 .fourth {
     grid-area: fourth;
+    background-color: var(--color-dark-blue);
+
+    img {
+        border-color: var(--color-purple-500);
+    }
+
+    h2 {
+        color: var(--color-white);
+    }
+
+    h3 {
+        color: var(--color-white);
+    }
+
+    p {
+        color: var(--color-grey-200);
+    }
+
+    blockquote p {
+        color: var(--color-grey-100);
+    }
 }
 
 .fifth {
