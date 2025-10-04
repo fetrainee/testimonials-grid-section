@@ -150,6 +150,27 @@ main {
 
 .third {
     grid-area: third;
+    background-color: var(--color-white);
+
+    img {
+        border-style: none;
+    }
+
+    h2 {
+        color: var(--color-grey-500);
+    }
+
+    h3 {
+        color: var(--color-grey-400);
+    }
+
+    p {
+        color: var(--color-grey-500);
+    }
+
+    blockquote p {
+        color: var(--color-grey-400);
+    }
 }
 
 .fourth {
