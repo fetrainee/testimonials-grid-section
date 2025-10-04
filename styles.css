@@ -11,6 +11,7 @@
     --color-white: hsl(0, 0%, 100%);
     --color-purple-50: hsl(260, 100%, 95%);
     --color-purple-300: hsl(264, 82%, 80%);
+    --color-purple-400: #A775F1;
     --color-purple-500: hsl(263, 55%, 52%);
     --color-grey-100: hsl(214, 17%, 92%);
     --color-grey-200: hsl(0, 0%, 81%);
@@ -103,7 +104,7 @@ main {
     background-color: var(--color-purple-500);
 
     img {
-        border-color: #A775F1;
+        border-color: var(--color-purple-400);
     }
 
     h2 {
