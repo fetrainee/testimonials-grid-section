@@ -19,6 +19,8 @@
     --color-grey-500: hsl(217, 19%, 35%);
     --color-dark-blue: hsl(219, 29%, 14%);
 
+    --color-background: #F6F5F6;
+
     --font-weight-medium: 500;
     --font-weight-semibold: 600;
 
@@ -28,6 +30,10 @@
     --spacing-l: 1.5rem; /* 24px */
     --spacing-xl: 2rem; /* 32px */
     --spacing-2xl: 2.5rem; /* 40px */
+}
+
+body {
+    background-color: var(--color-background);
 }
 
 main {
@@ -46,10 +52,21 @@ main {
     min-height: 100vh;
     padding-top: 3.75rem;
     padding-bottom: 3.75rem;
+    width: 305px;
+    margin: 0 auto;
+
+    /* Tablet */
+    @media (min-width: 768px) {
+        grid-template-areas:
+                "first first"
+                "second third"
+                "fourth fourth"
+                "fifth fifth";
+        width: 647px;
+    }
 }
 
 .card {
-    width: 305px;
     padding: var(--spacing-xl);
     gap: var(--spacing-m);
     display: flex;
