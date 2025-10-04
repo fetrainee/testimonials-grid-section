@@ -157,6 +157,12 @@ main {
     blockquote p {
         color: var(--color-purple-50);
     }
+
+    @media (min-width: 768px) {
+        background-image: url("./images/bg-pattern-quotation.svg");
+        background-repeat: no-repeat;
+        background-position: left 23.5rem top 0;
+    }
 }
 
 .second {
