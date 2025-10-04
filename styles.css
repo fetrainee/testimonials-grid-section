@@ -125,6 +125,27 @@ main {
 
 .second {
     grid-area: second;
+    background-color: var(--color-grey-500);
+
+    img {
+        border-style: none;
+    }
+
+    h2 {
+        color: var(--color-white);
+    }
+
+    h3 {
+        color: var(--color-grey-200);
+    }
+
+    p {
+        color: var(--color-white);
+    }
+
+    blockquote p {
+        color: var(--color-grey-100);
+    }
 }
 
 .third {
