@@ -55,7 +55,7 @@ main {
             "third"
             "fourth"
             "fifth";
-    gap: 2rem;
+    gap: var(--spacing-xl);
     width: 305px;
     padding: var(--spacing-2xl) 0;
 }
